@@ -1,0 +1,21 @@
+.navigation-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 60px;
+    width: 97vw;
+}
+.navigation {
+    background-color: lightseagreen;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navigation__input {
+    flex-grow: 1;
+}
+
+.navigation__input input {
+    width: 100%;
+}
