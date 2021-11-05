@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import profileImage from '../../assets/img/profile.png'
 
 const Nav = (props) => {
     const [value, setValue] = useState('')
@@ -21,6 +22,7 @@ const Nav = (props) => {
                            onKeyPress={handleClick}/>
                 </div>
                 <div className='navigation__user'>
+                    <img src={profileImage} alt={'profile'} />
                     Alexander Borishenko
                 </div>
             </div>
